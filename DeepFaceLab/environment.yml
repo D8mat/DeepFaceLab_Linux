@@ -9,7 +9,7 @@ dependencies:
   - pip
   - pip:
     - tqdm
-    - numpy==1.20
+    - numpy
     - numexpr
     - h5py==2.10.0
     - opencv-python==4.1.0.25
