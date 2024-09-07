@@ -1,3 +1,5 @@
+2024 update by D8mat
+
 # DeepFaceLab-Runpod
 DeepFaceLab is the leading software for creating deepfakes.
 
