@@ -598,7 +598,7 @@ def main(**kwargs):
             except KeyboardInterrupt:
                 s2c.put({'op': 'close'})
     else:
-        wnd_name = "Training preview SorryWeCan"
+        wnd_name = "Training preview SorryWeCan Synthetic"
         io.named_window(wnd_name)
         io.capture_keys(wnd_name)
 
