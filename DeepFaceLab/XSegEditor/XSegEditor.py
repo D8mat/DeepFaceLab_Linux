@@ -1503,7 +1503,7 @@ def start(input_dirpath):
     QApplication.setAttribute(Qt.AA_UseHighDpiPixmaps, True)
 
     app = QApplication([])
-    app.setApplicationName("XSegEditor")
+    app.setApplicationName("SyntheticXSegEditor")
     app.setStyle('Fusion')
 
     QFontDatabase.addApplicationFont( str(root_path / 'gfx' / 'fonts' / 'NotoSans-Medium.ttf') )
