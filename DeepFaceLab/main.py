@@ -177,7 +177,7 @@ if __name__ == "__main__":
     p.add_argument('--tensorboard-logdir', action=fixPathAction, dest="tensorboard_dir", help="Directory of the tensorboard output files")
     p.add_argument('--start-tensorboard', action="store_true", dest="start_tensorboard", default=False, help="Automatically start the tensorboard server preconfigured to the tensorboard-logdir")
     p.add_argument('--config-training-file', action=fixPathAction, dest="config_training_file", help="Path to custom yaml configuration file")
-    p.add_argument('--auto-gen-config', action="store_true", dest="auto_gen_config", default=True, help="Saves a configuration file for each model used in the trainer. It'll have the same model name")
+    p.add_argument('--auto-gen-config', action="store_true", dest="auto_gen_config", default=False, help="Saves a configuration file for each model used in the trainer. It'll have the same model name")
     p.add_argument('--reduce-clutter', action="store_true", dest="reduce_clutter", default=False, help='Remove options that are not used from printed summary')
     
     p.add_argument('--gen-snapshot', action="store_true", dest="gen_snapshot", default=True, help="Generate a set snapshot only.")
