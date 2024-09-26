@@ -656,7 +656,7 @@ def main(**kwargs):
                 # HEAD
                 head_lines = [
                     '[s]:save [b]:backup [enter]:exit',
-                    '[p]:update [space]:next preview [l]:change history range',
+                    '[p]:update [space]:next preview [h]:change history range',
                     'Preview: "%s" [%d/%d]' % (selected_preview_name, selected_preview + 1, len(previews))
                 ]
                 head_line_height = 15
